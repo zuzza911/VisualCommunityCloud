@@ -1,0 +1,26 @@
+{
+  "name": "VisualCommunityCloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javany/VisualCommunityCloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javany/VisualCommunityCloud/issues"
+  },
+  "homepage": "https://github.com/javany/VisualCommunityCloud",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0"
+  }
+}

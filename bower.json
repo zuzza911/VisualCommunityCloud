@@ -1,0 +1,22 @@
+{
+  "name": "VisualCommunityCloud",
+  "version": "0.0.0",
+  "homepage": "https://github.com/javany/VisualCommunityCloud",
+  "authors": [
+    "Igor Garashchuk <javany@ukr.net>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.1",
+    "react": "~0.13.3"
+  }
+}
