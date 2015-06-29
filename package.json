@@ -17,10 +17,20 @@
   "homepage": "https://github.com/javany/VisualCommunityCloud",
   "devDependencies": {
     "bower": "^1.4.1",
+    "del": "^1.2.0",
     "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.7.0",
+    "gulp-clean": "^0.3.1",
     "gulp-connect": "^2.2.0",
     "gulp-jshint": "^1.11.0",
-    "gulp-plumber": "^1.0.1"
+    "gulp-minify-html": "^1.0.3",
+    "gulp-plumber": "^1.0.1",
+    "gulp-preprocess": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.3",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.2.4"
   },
   "dependencies": {
     "bower": "^1.4.1",

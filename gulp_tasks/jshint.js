@@ -3,8 +3,8 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber');
 
 var hintPath = [
-    './client/app/scripts/**/*.js',
-    '!./client/vendors/**/*'
+    './workspace/scripts/**/*.js',
+    '!./workspace/scripts/vendors/**/*'
 ];
 
 gulp.task('jshint', function() {
