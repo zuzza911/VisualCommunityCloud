@@ -12,11 +12,16 @@
     "bower_components",
     "client/vendors",
     "test",
-    "tests"
+    "tests",
+    "workspace/client/vendors"
   ],
   "dependencies": {
     "bootstrap": "~3.3.5",
     "angular": "~1.4.1",
     "react": "~0.13.3"
+  },
+  "devDependencies": {
+    "karma": "~0.4.6",
+    "jasmine": "~2.3.4"
   }
 }

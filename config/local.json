@@ -1,5 +1,5 @@
 {
-  "build": "./build",
+  "build": "./build/client/app",
   "work": "./workspace",
   "sass": {
     "src": "./workspace/client/app/styles/*.scss",
@@ -7,8 +7,8 @@
   },
   "copy": {
     "src": [
-      "./workspace/client/app/images/**/*",
-      "./workspace/client/app/fonts/**/*"
+      "./workspace/client/app/images/*",
+      "./workspace/client/app/fonts/*"
     ],
     "dest": [
       "./build/images",
@@ -30,7 +30,8 @@
   },
   "script": {
     "src": [
-      "./workspace/client/app/scripts/**/*.js"
+      "./workspace/client/app/scripts/**/*.js",
+      "./workspace/client/vendors/**/*.js"
     ],
     "dest": "./build/"
   }

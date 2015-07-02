@@ -30,7 +30,7 @@ gulp.task('html', ['index-html'], function () {
 });
 
 gulp.task('index-html', function () {
-    return gulp.src('./workspace/index.html')
+    return gulp.src('./workspace/client/app/index.html')
         .pipe(preprocess({
             context: {
                 isCompressed: false
